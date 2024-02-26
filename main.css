@@ -36,6 +36,15 @@ body {
   margin-bottom: 2rem;
 }
 
+.japanese-text {
+  color: grey;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+
+
+
 /* Adjustments for formatting MOE EBII to be right-aligned */
 .name {
   text-align: right;

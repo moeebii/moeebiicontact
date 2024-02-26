@@ -1,0 +1,85 @@
+/* Reset some default styles */
+body,
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit; /* Inherit the text color from the parent */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for links */
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+/* Apply a box-sizing border-box model globally */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 5rem;
+}
+
+.greetings{
+  margin-bottom: 2rem;
+}
+
+/* Adjustments for formatting MOE EBII to be right-aligned */
+.name {
+  text-align: right;
+  font-weight: bold; /* Make the name bold */
+}
+
+/* Centering other elements */
+.projects,
+.archives,
+.contact {
+  text-align: center;
+  font-weight: bold; /* Make projects, archives, and contact bold */
+}
+
+/* Displaying the text next to each other in a row */
+.info {
+  flex-direction: row;
+}
+
+/* Red color for contact on all devices */
+.contact {
+  color: #b70000;
+}
+
+/* Add hover effect to titles */
+.name:hover,
+.projects:hover,
+.archives:hover {
+  color: #b70000; /* Red color code */
+  font-weight: bold; /* Make titles bold on hover */
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 480px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 4vh;
+  }
+}

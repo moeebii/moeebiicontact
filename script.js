@@ -20,4 +20,4 @@ window.onload = function () {
 // Call the redirection function when the window is resized
 window.onresize = function () {
   redirectIfDesktopOrTablet();
-};
+};s

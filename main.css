@@ -461,16 +461,18 @@ body {
   .pagecols {
     flex-direction: column-reverse; /* Reverse the order of flex items for smaller screens */
   }
-
   .name{
     font-family: 'newedge_666light_rounded';
+    font-size: 1rem;
     
   }
 
   .projects, .archives, .contact {
     font-family: 'newedge_666light_rounded';
+    font-size: 2rem;
 
   }
+  
   
 
   .info {
